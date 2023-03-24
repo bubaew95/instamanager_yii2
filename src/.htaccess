@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    # если /admin, то в backend
+    RewriteCond %{REQUEST_URI} ^/(admin)
+    RewriteRule ^admin/assets/(.*)$ framework/backend/web/assets/$1 [L,QSA]
+    RewriteRule ^admin/$ admin/index.php [L]
+
+    RewriteRule ^([a-z_-]+)/assets/(.*)$ framework/frontend/themes/$1/assets/$2 [L,QSA]
+
+    RewriteCond %{REQUEST_URI} !^/(assets|css|js|images|fonts|plugins|framework|uploads)/
+    RewriteCond %{REQUEST_URI} !index.php
+    RewriteCond %{REQUEST_FILENAME} !-f [OR]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php
+</IfModule>

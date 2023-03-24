@@ -1,0 +1,51 @@
+server {
+    index index.php index.html;
+    #server_name new.neb-chr.ru;
+    error_log  /var/log/nginx/error.log;
+    access_log /var/log/nginx/access.log;
+    root /src;
+
+    location / {
+        try_files $uri $uri/ /index.php$is_args$args;
+        
+        location ~ ^/static/.+\.php(/|$) {
+            deny all;
+        }
+    }
+    
+    location /admin {
+        #try_files $uri /admin/index.php$is_args$args;
+        try_files $uri $uri/ /admin/index.php$is_args$args;
+        
+        location ~ ^/admin/assets/.+\.php(/|$) {
+            deny all;
+        }
+    }
+
+    location ~* ^.+\.(js|css|ttf|jpg|jpeg|gif|png|ico|zip|tgz|gz|rar|tar|bz2|pdf|doc|docx|rtf|xls|ppt|mp3|public|assets|images|fonts|plugins|static)$ {
+        #access_log off;
+        #log_not_found off;
+        #expires 3d; # кеширование статики 3 дня
+        try_files $uri =404;
+    }
+
+    #error_page 404 /404.html;
+
+    location ~ ^/assets/.*\.php$ {
+        deny all;
+    }
+
+    location ~* /\. {
+        deny all;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass php-fpm:9000;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param PHP_VALUE "error_log=/var/log/nginx/application_php_errors.log";
+        fastcgi_buffers 16 16k;
+        fastcgi_buffer_size 32k;
+        include fastcgi_params;
+    }
+}

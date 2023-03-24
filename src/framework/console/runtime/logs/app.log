@@ -1,0 +1,1565 @@
+2019-09-29 17:10:41 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot declare class m140524_201442_newusers, because the name is already in use in D:\noXcho\OSPanel\domains\instagrammanager\src\framework\console\migrations\m140524_201442_newusers.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-09-29 17:10:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '118x10000 (118x23)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\noXcho\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÏÁ-ÏÊ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00020434'
+    'ConEmuBaseDir' => 'D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\noxcho\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00020432'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00040518'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '6128'
+    'ConEmuPrompt0' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S$E]9;12$E\\'
+    'ConEmuServerPID' => '5776'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\noxcho\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\noxcho\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\noxcho\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\noXcho\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÏÁ-ÏÊ'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'd:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu\\Scripts;D:\\noxcho\\ospanel\\modules\\conemu;D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\ext;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\pear;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\pear\\bin;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64;d:\\noxcho\\ospanel\\modules\\wget\\bin;d:\\noxcho\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;d:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64\\bin;d:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHPDIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHPRC' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64'
+    'PHP_BIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHP_INI' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'd:\\noxcho\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\noxcho\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'ÏÁ-ÏÊ'
+    'USERNAME' => 'noXcho'
+    'USERPROFILE' => 'C:\\Users\\noXcho'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\'
+    'PHP_SELF' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'SCRIPT_NAME' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'SCRIPT_FILENAME' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'PATH_TRANSLATED' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569766241.0055
+    'REQUEST_TIME' => 1569766241
+    'argv' => [
+        0 => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-29 17:12:44 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot declare class m140524_201442_newusers, because the name is already in use in D:\noXcho\OSPanel\domains\instagrammanager\src\framework\console\migrations\m140524_201442_newusers.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-09-29 17:12:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '118x10000 (118x23)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\noXcho\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÏÁ-ÏÊ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00020434'
+    'ConEmuBaseDir' => 'D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\noxcho\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00020432'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00040518'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '6128'
+    'ConEmuPrompt0' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S$E]9;12$E\\'
+    'ConEmuServerPID' => '5776'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\noxcho\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\noxcho\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\noxcho\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\noXcho\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÏÁ-ÏÊ'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'd:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu\\Scripts;D:\\noxcho\\ospanel\\modules\\conemu;D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\ext;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\pear;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\pear\\bin;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64;d:\\noxcho\\ospanel\\modules\\wget\\bin;d:\\noxcho\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;d:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64\\bin;d:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHPDIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHPRC' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64'
+    'PHP_BIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHP_INI' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'd:\\noxcho\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\noxcho\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'ÏÁ-ÏÊ'
+    'USERNAME' => 'noXcho'
+    'USERPROFILE' => 'C:\\Users\\noXcho'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\'
+    'PHP_SELF' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'SCRIPT_NAME' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'SCRIPT_FILENAME' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'PATH_TRANSLATED' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569766364.0386
+    'REQUEST_TIME' => 1569766364
+    'argv' => [
+        0 => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-29 17:12:57 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot declare class m140524_201442_newusers, because the name is already in use in D:\noXcho\OSPanel\domains\instagrammanager\src\framework\console\migrations\m140524_201442_newusers.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-09-29 17:12:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '118x10000 (118x23)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\noXcho\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ÏÁ-ÏÊ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00020434'
+    'ConEmuBaseDir' => 'D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\noxcho\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00020432'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00040518'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '6128'
+    'ConEmuPrompt0' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S$E]9;12$E\\'
+    'ConEmuServerPID' => '5776'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\noxcho\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\noxcho\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\noxcho\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\noXcho\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ÏÁ-ÏÊ'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'd:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu\\Scripts;D:\\noxcho\\ospanel\\modules\\conemu;D:\\noxcho\\ospanel\\modules\\conemu\\ConEmu;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\ext;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\pear;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\pear\\bin;d:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64;d:\\noxcho\\ospanel\\modules\\wget\\bin;d:\\noxcho\\ospanel\\modules\\database\\MySQL-5.6-x64\\bin;d:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64\\bin;d:\\noxcho\\ospanel\\modules\\http\\Apache-PHP-7-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHPDIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHPRC' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64'
+    'PHP_BIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\'
+    'PHP_INI' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\noxcho\\ospanel\\modules\\php\\PHP-7.1-x64\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'd:\\noxcho\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\noxcho\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'ÏÁ-ÏÊ'
+    'USERNAME' => 'noXcho'
+    'USERPROFILE' => 'C:\\Users\\noXcho'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\'
+    'PHP_SELF' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'SCRIPT_NAME' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'SCRIPT_FILENAME' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'PATH_TRANSLATED' => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569766375.7352
+    'REQUEST_TIME' => 1569766375
+    'argv' => [
+        0 => 'd:\\noXcho\\OSPanel\\domains\\instagrammanager\\src\\framework\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:21:40 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "rabbitmg". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbitmg', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmg', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "rabbitmg". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmg', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#3 {main}
+2019-10-01 13:21:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569936100.1279
+    'REQUEST_TIME' => 1569936100
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbitmg'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:21:41 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "rabbitmq". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbitmq', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmq', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "rabbitmq". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmq', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#3 {main}
+2019-10-01 13:21:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569936101.7962
+    'REQUEST_TIME' => 1569936101
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbitmq'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:21:56 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "rabbitmq/read". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbitmq/read', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmq/read', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "rabbitmq/read". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmq/read', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#3 {main}
+2019-10-01 13:21:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569936116.3529
+    'REQUEST_TIME' => 1569936116
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbitmq/read'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:22:02 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "rabbitmq/read". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbitmq/read', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmq/read', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "rabbitmq/read". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbitmq/read', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#3 {main}
+2019-10-01 13:22:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569936122.9164
+    'REQUEST_TIME' => 1569936122
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbitmq/read'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:22:12 [-][-][-][error][PhpAmqpLib\Exception\AMQPIOException] PhpAmqpLib\Exception\AMQPIOException: stream_socket_client(): unable to connect to tcp://172.18.0.2:5672 (Operation timed out) in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php:109
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php(218): PhpAmqpLib\Wire\IO\StreamIO->connect()
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php(202): PhpAmqpLib\Connection\AbstractConnection->connect()
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php(69): PhpAmqpLib\Connection\AbstractConnection->__construct('guest', 'guest', '/', false, 'AMQPLAIN', NULL, 'en_US', Object(PhpAmqpLib\Wire\IO\StreamIO), 0, 3, 0)
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(32): PhpAmqpLib\Connection\AMQPStreamConnection->__construct('172.18.0.2', 5672, 'guest', 'guest')
+#4 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RabbitController.php(25): common\components\rabbit\RabbitMQ->__construct()
+#5 [internal function]: console\controllers\RabbitController->actionRead()
+#6 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('read', Array)
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('read', Array)
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbit/read', Array)
+#11 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbit/read', Array)
+#12 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#14 {main}
+2019-10-01 13:22:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569936129.5818
+    'REQUEST_TIME' => 1569936129
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbit/read'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:39:18 [-][-][-][error][Error] Error: Class 'common\modules\insta\modules\common\insta\Encryption' not found in /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php:24
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(59): common\modules\insta\modules\common\insta\InstagramDataWidget->loadMedia(Object(stdClass))
+#1 [internal function]: common\components\rabbit\RabbitMQ->common\components\rabbit\{closure}(Object(PhpAmqpLib\Message\AMQPMessage))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1041): call_user_func(Object(Closure), Object(PhpAmqpLib\Message\AMQPMessage))
+#3 [internal function]: PhpAmqpLib\Channel\AMQPChannel->basic_deliver(Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#4 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(218): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(373): PhpAmqpLib\Channel\AbstractChannel->dispatch('60,60', '\x1Famq.ctag-726bD...', Object(PhpAmqpLib\Message\AMQPMessage))
+#6 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(72): PhpAmqpLib\Channel\AbstractChannel->wait()
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RabbitController.php(26): common\components\rabbit\RabbitMQ->readRabbitMq()
+#8 [internal function]: console\controllers\RabbitController->actionRead()
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('read', Array)
+#12 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('read', Array)
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbit/read', Array)
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbit/read', Array)
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#17 {main}
+2019-10-01 13:39:10 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569937150.202
+    'REQUEST_TIME' => 1569937150
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbit/read'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:51:18 [-][-][-][error][yii\base\InvalidCallException] yii\base\InvalidCallException: Unable to link models: the primary key of common\models\products\Products is null. in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1572
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1348): yii\db\BaseActiveRecord->bindModels(Array, Object(common\models\instagram\InstagramDataModel), Object(common\models\products\Products))
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(110): yii\db\BaseActiveRecord->link('product', Object(common\models\products\Products))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(78): common\modules\insta\modules\common\insta\InstagramDataWidget->insertMedia(Array)
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(59): common\modules\insta\modules\common\insta\InstagramDataWidget->loadMedia(Object(stdClass))
+#4 [internal function]: common\components\rabbit\RabbitMQ->common\components\rabbit\{closure}(Object(PhpAmqpLib\Message\AMQPMessage))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1041): call_user_func(Object(Closure), Object(PhpAmqpLib\Message\AMQPMessage))
+#6 [internal function]: PhpAmqpLib\Channel\AMQPChannel->basic_deliver(Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(218): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(373): PhpAmqpLib\Channel\AbstractChannel->dispatch('60,60', '\x1Famq.ctag-493Sq...', Object(PhpAmqpLib\Message\AMQPMessage))
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(72): PhpAmqpLib\Channel\AbstractChannel->wait()
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RabbitController.php(26): common\components\rabbit\RabbitMQ->readRabbitMq()
+#11 [internal function]: console\controllers\RabbitController->actionRead()
+#12 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('read', Array)
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('read', Array)
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbit/read', Array)
+#17 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbit/read', Array)
+#18 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#20 {main}
+2019-10-01 13:51:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569937861.5151
+    'REQUEST_TIME' => 1569937861
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbit/read'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:56:39 [-][-][-][error][yii\base\InvalidCallException] yii\base\InvalidCallException: Unable to link models: the primary key of common\models\products\Products is null. in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1572
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1348): yii\db\BaseActiveRecord->bindModels(Array, Object(common\models\instagram\InstagramDataModel), Object(common\models\products\Products))
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(112): yii\db\BaseActiveRecord->link('product', Object(common\models\products\Products))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(78): common\modules\insta\modules\common\insta\InstagramDataWidget->insertMedia(Array)
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(59): common\modules\insta\modules\common\insta\InstagramDataWidget->loadMedia(Object(stdClass))
+#4 [internal function]: common\components\rabbit\RabbitMQ->common\components\rabbit\{closure}(Object(PhpAmqpLib\Message\AMQPMessage))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1041): call_user_func(Object(Closure), Object(PhpAmqpLib\Message\AMQPMessage))
+#6 [internal function]: PhpAmqpLib\Channel\AMQPChannel->basic_deliver(Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(218): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(373): PhpAmqpLib\Channel\AbstractChannel->dispatch('60,60', '\x1Famq.ctag-W0M4N...', Object(PhpAmqpLib\Message\AMQPMessage))
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(72): PhpAmqpLib\Channel\AbstractChannel->wait()
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RabbitController.php(26): common\components\rabbit\RabbitMQ->readRabbitMq()
+#11 [internal function]: console\controllers\RabbitController->actionRead()
+#12 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('read', Array)
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('read', Array)
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbit/read', Array)
+#17 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbit/read', Array)
+#18 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#20 {main}
+2019-10-01 13:56:23 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569938183.5459
+    'REQUEST_TIME' => 1569938183
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbit/read'
+    ]
+    'argc' => 2
+]
+2019-10-01 13:59:16 [-][-][-][error][yii\base\InvalidCallException] yii\base\InvalidCallException: Unable to link models: the primary key of common\models\products\Products is null. in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1572
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1348): yii\db\BaseActiveRecord->bindModels(Array, Object(common\models\instagram\InstagramDataModel), Object(common\models\products\Products))
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(112): yii\db\BaseActiveRecord->link('product', Object(common\models\products\Products))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(78): common\modules\insta\modules\common\insta\InstagramDataWidget->insertMedia(Array)
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(59): common\modules\insta\modules\common\insta\InstagramDataWidget->loadMedia(Object(stdClass))
+#4 [internal function]: common\components\rabbit\RabbitMQ->common\components\rabbit\{closure}(Object(PhpAmqpLib\Message\AMQPMessage))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1041): call_user_func(Object(Closure), Object(PhpAmqpLib\Message\AMQPMessage))
+#6 [internal function]: PhpAmqpLib\Channel\AMQPChannel->basic_deliver(Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(218): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(373): PhpAmqpLib\Channel\AbstractChannel->dispatch('60,60', '\x1Famq.ctag-AXGFZ...', Object(PhpAmqpLib\Message\AMQPMessage))
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(72): PhpAmqpLib\Channel\AbstractChannel->wait()
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RabbitController.php(26): common\components\rabbit\RabbitMQ->readRabbitMq()
+#11 [internal function]: console\controllers\RabbitController->actionRead()
+#12 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('read', Array)
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('read', Array)
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbit/read', Array)
+#17 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbit/read', Array)
+#18 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#20 {main}
+2019-10-01 13:59:07 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569938347.1836
+    'REQUEST_TIME' => 1569938347
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbit/read'
+    ]
+    'argc' => 2
+]
+2019-10-01 18:49:20 [-][-][-][error][yii\base\InvalidCallException] yii\base\InvalidCallException: Unable to link models: the primary key of common\models\products\Products is null. in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1572
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1348): yii\db\BaseActiveRecord->bindModels(Array, Object(common\models\instagram\InstagramDataModel), Object(common\models\products\Products))
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(110): yii\db\BaseActiveRecord->link('product', Object(common\models\products\Products))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/common/modules/insta/modules/common/insta/InstagramDataWidget.php(76): common\modules\insta\modules\common\insta\InstagramDataWidget->insertMedia(Array)
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(52): common\modules\insta\modules\common\insta\InstagramDataWidget->loadMedia(Object(stdClass))
+#4 [internal function]: common\components\rabbit\RabbitMQ->common\components\rabbit\{closure}(Object(PhpAmqpLib\Message\AMQPMessage))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1041): call_user_func(Object(Closure), Object(PhpAmqpLib\Message\AMQPMessage))
+#6 [internal function]: PhpAmqpLib\Channel\AMQPChannel->basic_deliver(Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(218): call_user_func(Array, Object(PhpAmqpLib\Wire\AMQPReader), Object(PhpAmqpLib\Message\AMQPMessage))
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(373): PhpAmqpLib\Channel\AbstractChannel->dispatch('60,60', '\x1Famq.ctag-fhw8l...', Object(PhpAmqpLib\Message\AMQPMessage))
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/rabbit/RabbitMQ.php(65): PhpAmqpLib\Channel\AbstractChannel->wait()
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RabbitController.php(26): common\components\rabbit\RabbitMQ->readRabbitMq()
+#11 [internal function]: console\controllers\RabbitController->actionRead()
+#12 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('read', Array)
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('read', Array)
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('rabbit/read', Array)
+#17 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('rabbit/read', Array)
+#18 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#20 {main}
+2019-10-01 18:49:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.0ksdGp7naj/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.CSqKnMM4D8/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS' => '/Users/borz/Library/WebKit/Databases'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a8'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t2p0:2DFCDBFC-5412-4005-8854-1A732FDC9974'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1569955744.7431
+    'REQUEST_TIME' => 1569955744
+    'argv' => [
+        0 => 'yii'
+        1 => 'rabbit/read'
+    ]
+    'argc' => 2
+]
+2019-10-03 15:25:22 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "realtime". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('realtime', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('realtime', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "realtime". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('realtime', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#3 {main}
+2019-10-03 15:25:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SERVER_SIGNATURE' => ''
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'ORIG_PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/admin/index.php'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_HOST' => 'insta-module:8888'
+    'SERVER_PORT' => '8888'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HANDLER' => 'php-fastcgi'
+    'DOCUMENT_ROOT' => ''
+    'SCRIPT_FILENAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_URI' => '/admin/insta/default/statusbot?status=1&insta_id=2'
+    'SCRIPT_NAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'HTTP_X_CSRF_TOKEN' => 'oRBqGEJgWa4unrtWPj0ey74tDfOiYNbF1u1LVWVf7ZWTcTxrbwcymEL03xoGR2-M0ENngsRQk_OxqQ0dBBmdpw=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REMOTE_PORT' => '63403'
+    'PHP_FCGI_CHILDREN' => '4'
+    'PHP_SELF' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'ORIG_SCRIPT_FILENAME' => '/Applications/MAMP/fcgi-bin/php7.1.22.fcgi'
+    'SERVER_ADMIN' => 'you@example.com'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/admin'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_QUERY_STRING' => 'status=1&insta_id=2'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_REFERER' => 'http://insta-module:8888/admin/insta'
+    'HTTP_ACCEPT' => '*/*'
+    'ORIG_SCRIPT_NAME' => '/fcgi-bin/php7.1.22.fcgi'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_NAME' => 'insta-module'
+    'SHLVL' => '1'
+    'SERVER_SOFTWARE' => 'Apache'
+    'QUERY_STRING' => 'status=1&insta_id=2'
+    'SERVER_ADDR' => '::1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REDIRECT_URL' => '/admin/index.php'
+    'HTTP_COOKIE' => 'advanced-backend=a9abf9b1c263f55d3e767e78e4f5bdfd; _csrf-backend=a750749f90a995a08d7e7b215e27855a3a2f6b3b60818cdac14275644973e23da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222aVs-gk6ljdL8zqGnnjqf0E6gDFHaFp2%22%3B%7D; _csrf-frontend=98c4ac017f299c224daafd4a6fb662e8c9d39e8f7f326e81a3c44c56b9d35a68a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iPFCG2l1hwoswm7Fv8cPUewJPGYiDCyB%22%3B%7D; advanced-frontend=eb6feafa1fb9d461ba24ae36c8cc4ce2; menu_small=1'
+    'REQUEST_METHOD' => 'GET'
+    'ORIG_PATH_INFO' => '/admin/index.php'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    '_' => '/usr/bin/php'
+    'PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_TIME_FLOAT' => 1570116322.6449
+    'REQUEST_TIME' => 1570116322
+    'argv' => [
+        0 => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+        1 => 'realtime'
+        2 => '--login=banu_1_1'
+        3 => '--pass=b0010203'
+    ]
+    'argc' => 4
+]
+2019-10-03 15:32:44 [-][-][-][error][Error] Error: Class 'common\components\Log' not found in /Users/borz/Server/Php/instagrammanager/src/framework/common/components/server/RealtimeClientServer.php:100
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/evenement/evenement/src/Evenement/EventEmitterTrait.php(123): common\components\server\RealtimeClientServer->common\components\server\{closure}('340282366841710...', Object(InstagramAPI\Realtime\Payload\ThreadActivity))
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(296): InstagramAPI\Realtime->emit('thread-activity', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(130): InstagramAPI\Realtime\Handler\DirectHandler->_updateThreadActivity(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(99): InstagramAPI\Realtime\Handler\DirectHandler->_handleAdd(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#4 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(63): InstagramAPI\Realtime\Handler\DirectHandler->_handlePatchOp(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(42): InstagramAPI\Realtime\Handler\DirectHandler->_processEvent(Array)
+#6 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(789): InstagramAPI\Realtime\Handler\DirectHandler->handleMessage(Object(InstagramAPI\Realtime\Message))
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(740): InstagramAPI\Realtime\Mqtt->_handleMessage('/pubsub', '\x15\x02\x18\xB8\x03{"publish_...')
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(612): InstagramAPI\Realtime\Mqtt->_onReceive(Object(BinSoul\Net\Mqtt\DefaultMessage))
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/evenement/evenement/src/Evenement/EventEmitterTrait.php(123): InstagramAPI\Realtime\Mqtt->InstagramAPI\Realtime\{closure}(Object(BinSoul\Net\Mqtt\DefaultMessage), Object(BinSoul\Net\Mqtt\Client\React\ReactMqttClient))
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/binsoul/net-mqtt-client-react/src/ReactMqttClient.php(671): Evenement\EventEmitter->emit('message', Array)
+#11 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/binsoul/net-mqtt-client-react/src/ReactMqttClient.php(551): BinSoul\Net\Mqtt\Client\React\ReactMqttClient->finishFlow(Object(BinSoul\Net\Mqtt\Client\React\ReactFlow))
+#12 [internal function]: BinSoul\Net\Mqtt\Client\React\ReactMqttClient->BinSoul\Net\Mqtt\Client\React\{closure}(Object(React\EventLoop\StreamSelectLoop))
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/react/event-loop/src/Tick/NextTickQueue.php(43): call_user_func(Object(Closure), Object(React\EventLoop\StreamSelectLoop))
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/react/event-loop/src/StreamSelectLoop.php(173): React\EventLoop\Tick\NextTickQueue->tick()
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/server/RealtimeClientServer.php(163): React\EventLoop\StreamSelectLoop->run()
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RealtimeController.php(40): common\components\server\RealtimeClientServer->__construct(Object(React\EventLoop\StreamSelectLoop), Object(InstagramAPI\Instagram), Object(Monolog\Logger))
+#17 [internal function]: console\controllers\RealtimeController->actionIndex()
+#18 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#19 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#21 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#22 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('realtime', Array)
+#23 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('realtime', Array)
+#24 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#25 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#26 {main}
+2019-10-03 15:32:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SERVER_SIGNATURE' => ''
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'ORIG_PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/admin/index.php'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_HOST' => 'insta-module:8888'
+    'SERVER_PORT' => '8888'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HANDLER' => 'php-fastcgi'
+    'DOCUMENT_ROOT' => ''
+    'SCRIPT_FILENAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_URI' => '/admin/insta/default/statusbot?status=1&insta_id=2'
+    'SCRIPT_NAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'HTTP_X_CSRF_TOKEN' => '37Cwypz7ct_6sHCgHmhKZG9otQw6IEbZ3IDYIo21FMHt0ea5sZwZ6ZbaFOwmEjsjAQbffVwQA--7xJ5q7PNk8w=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REMOTE_PORT' => '65205'
+    'PHP_FCGI_CHILDREN' => '4'
+    'PHP_SELF' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'ORIG_SCRIPT_FILENAME' => '/Applications/MAMP/fcgi-bin/php7.1.22.fcgi'
+    'SERVER_ADMIN' => 'you@example.com'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/admin'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_QUERY_STRING' => 'status=1&insta_id=2'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_REFERER' => 'http://insta-module:8888/admin/insta'
+    'HTTP_ACCEPT' => '*/*'
+    'ORIG_SCRIPT_NAME' => '/fcgi-bin/php7.1.22.fcgi'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_NAME' => 'insta-module'
+    'SHLVL' => '1'
+    'SERVER_SOFTWARE' => 'Apache'
+    'QUERY_STRING' => 'status=1&insta_id=2'
+    'SERVER_ADDR' => '::1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REDIRECT_URL' => '/admin/index.php'
+    'HTTP_COOKIE' => 'advanced-backend=a9abf9b1c263f55d3e767e78e4f5bdfd; _csrf-backend=a750749f90a995a08d7e7b215e27855a3a2f6b3b60818cdac14275644973e23da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222aVs-gk6ljdL8zqGnnjqf0E6gDFHaFp2%22%3B%7D; _csrf-frontend=98c4ac017f299c224daafd4a6fb662e8c9d39e8f7f326e81a3c44c56b9d35a68a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iPFCG2l1hwoswm7Fv8cPUewJPGYiDCyB%22%3B%7D; advanced-frontend=eb6feafa1fb9d461ba24ae36c8cc4ce2; menu_small=1'
+    'REQUEST_METHOD' => 'GET'
+    'ORIG_PATH_INFO' => '/admin/index.php'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    '_' => '/usr/bin/php'
+    'PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_TIME_FLOAT' => 1570116728.2488
+    'REQUEST_TIME' => 1570116728
+    'argv' => [
+        0 => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+        1 => 'realtime'
+        2 => '--login=banu_1_1'
+        3 => '--pass=b0010203'
+    ]
+    'argc' => 4
+]
+2019-10-03 15:34:22 [-][-][-][error][Error] Error: Class 'common\components\Log' not found in /Users/borz/Server/Php/instagrammanager/src/framework/common/components/server/RealtimeClientServer.php:129
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/evenement/evenement/src/Evenement/EventEmitterTrait.php(123): common\components\server\RealtimeClientServer->common\components\server\{closure}('340282366841710...', '1324751131', Object(InstagramAPI\Response\Model\DirectThreadLastSeenAt))
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(373): InstagramAPI\Realtime->emit('thread-seen', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(154): InstagramAPI\Realtime\Handler\DirectHandler->_updateSeen(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(102): InstagramAPI\Realtime\Handler\DirectHandler->_handleReplace(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#4 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(63): InstagramAPI\Realtime\Handler\DirectHandler->_handlePatchOp(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(42): InstagramAPI\Realtime\Handler\DirectHandler->_processEvent(Array)
+#6 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(789): InstagramAPI\Realtime\Handler\DirectHandler->handleMessage(Object(InstagramAPI\Realtime\Message))
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(740): InstagramAPI\Realtime\Mqtt->_handleMessage('/pubsub', '\x15\x02\x18\x8E\x03{"publish_...')
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(612): InstagramAPI\Realtime\Mqtt->_onReceive(Object(BinSoul\Net\Mqtt\DefaultMessage))
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/evenement/evenement/src/Evenement/EventEmitterTrait.php(123): InstagramAPI\Realtime\Mqtt->InstagramAPI\Realtime\{closure}(Object(BinSoul\Net\Mqtt\DefaultMessage), Object(BinSoul\Net\Mqtt\Client\React\ReactMqttClient))
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/binsoul/net-mqtt-client-react/src/ReactMqttClient.php(671): Evenement\EventEmitter->emit('message', Array)
+#11 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/binsoul/net-mqtt-client-react/src/ReactMqttClient.php(551): BinSoul\Net\Mqtt\Client\React\ReactMqttClient->finishFlow(Object(BinSoul\Net\Mqtt\Client\React\ReactFlow))
+#12 [internal function]: BinSoul\Net\Mqtt\Client\React\ReactMqttClient->BinSoul\Net\Mqtt\Client\React\{closure}(Object(React\EventLoop\StreamSelectLoop))
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/react/event-loop/src/Tick/NextTickQueue.php(43): call_user_func(Object(Closure), Object(React\EventLoop\StreamSelectLoop))
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/react/event-loop/src/StreamSelectLoop.php(173): React\EventLoop\Tick\NextTickQueue->tick()
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/server/RealtimeClientServer.php(163): React\EventLoop\StreamSelectLoop->run()
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RealtimeController.php(40): common\components\server\RealtimeClientServer->__construct(Object(React\EventLoop\StreamSelectLoop), Object(InstagramAPI\Instagram), Object(Monolog\Logger))
+#17 [internal function]: console\controllers\RealtimeController->actionIndex()
+#18 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#19 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#21 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#22 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('realtime', Array)
+#23 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('realtime', Array)
+#24 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#25 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#26 {main}
+2019-10-03 15:34:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SERVER_SIGNATURE' => ''
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'ORIG_PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/admin/index.php'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_HOST' => 'insta-module:8888'
+    'SERVER_PORT' => '8888'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HANDLER' => 'php-fastcgi'
+    'DOCUMENT_ROOT' => ''
+    'SCRIPT_FILENAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_URI' => '/admin/insta/default/statusbot?status=1&insta_id=2'
+    'SCRIPT_NAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'HTTP_X_CSRF_TOKEN' => 'oTejioIY2RJmCl3rFQnI2P2lNLNB0zYKXiQEGbtwOHWTVvX5r3-yJApgOactc7mfk8tewifjczw5YEJR2jZIRw=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REMOTE_PORT' => '49368'
+    'PHP_FCGI_CHILDREN' => '4'
+    'PHP_SELF' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'ORIG_SCRIPT_FILENAME' => '/Applications/MAMP/fcgi-bin/php7.1.22.fcgi'
+    'SERVER_ADMIN' => 'you@example.com'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/admin'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_QUERY_STRING' => 'status=1&insta_id=2'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_REFERER' => 'http://insta-module:8888/admin/insta'
+    'HTTP_ACCEPT' => '*/*'
+    'ORIG_SCRIPT_NAME' => '/fcgi-bin/php7.1.22.fcgi'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_NAME' => 'insta-module'
+    'SHLVL' => '1'
+    'SERVER_SOFTWARE' => 'Apache'
+    'QUERY_STRING' => 'status=1&insta_id=2'
+    'SERVER_ADDR' => '::1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REDIRECT_URL' => '/admin/index.php'
+    'HTTP_COOKIE' => 'advanced-backend=a9abf9b1c263f55d3e767e78e4f5bdfd; _csrf-backend=a750749f90a995a08d7e7b215e27855a3a2f6b3b60818cdac14275644973e23da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222aVs-gk6ljdL8zqGnnjqf0E6gDFHaFp2%22%3B%7D; _csrf-frontend=98c4ac017f299c224daafd4a6fb662e8c9d39e8f7f326e81a3c44c56b9d35a68a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iPFCG2l1hwoswm7Fv8cPUewJPGYiDCyB%22%3B%7D; advanced-frontend=eb6feafa1fb9d461ba24ae36c8cc4ce2; menu_small=1'
+    'REQUEST_METHOD' => 'GET'
+    'ORIG_PATH_INFO' => '/admin/index.php'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    '_' => '/usr/bin/php'
+    'PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_TIME_FLOAT' => 1570116852.1464
+    'REQUEST_TIME' => 1570116852
+    'argv' => [
+        0 => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+        1 => 'realtime'
+        2 => '--login=banu_1_1'
+        3 => '--pass=b0010203'
+    ]
+    'argc' => 4
+]
+2019-10-03 15:36:29 [-][-][-][error][Error] Error: Class 'common\components\logs\Log' not found in /Users/borz/Server/Php/instagrammanager/src/framework/common/components/server/RealtimeClientServer.php:100
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/evenement/evenement/src/Evenement/EventEmitterTrait.php(123): common\components\server\RealtimeClientServer->common\components\server\{closure}('340282366841710...', Object(InstagramAPI\Realtime\Payload\ThreadActivity))
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(296): InstagramAPI\Realtime->emit('thread-activity', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(130): InstagramAPI\Realtime\Handler\DirectHandler->_updateThreadActivity(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(99): InstagramAPI\Realtime\Handler\DirectHandler->_handleAdd(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#4 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(63): InstagramAPI\Realtime\Handler\DirectHandler->_handlePatchOp(Object(InstagramAPI\Realtime\Payload\Event\PatchEventOp))
+#5 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Handler/DirectHandler.php(42): InstagramAPI\Realtime\Handler\DirectHandler->_processEvent(Array)
+#6 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(789): InstagramAPI\Realtime\Handler\DirectHandler->handleMessage(Object(InstagramAPI\Realtime\Message))
+#7 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(740): InstagramAPI\Realtime\Mqtt->_handleMessage('/pubsub', '\x15\x02\x18\xB9\x03{"publish_...')
+#8 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/mgp25/instagram-php/src/Realtime/Mqtt.php(612): InstagramAPI\Realtime\Mqtt->_onReceive(Object(BinSoul\Net\Mqtt\DefaultMessage))
+#9 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/evenement/evenement/src/Evenement/EventEmitterTrait.php(123): InstagramAPI\Realtime\Mqtt->InstagramAPI\Realtime\{closure}(Object(BinSoul\Net\Mqtt\DefaultMessage), Object(BinSoul\Net\Mqtt\Client\React\ReactMqttClient))
+#10 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/binsoul/net-mqtt-client-react/src/ReactMqttClient.php(671): Evenement\EventEmitter->emit('message', Array)
+#11 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/binsoul/net-mqtt-client-react/src/ReactMqttClient.php(551): BinSoul\Net\Mqtt\Client\React\ReactMqttClient->finishFlow(Object(BinSoul\Net\Mqtt\Client\React\ReactFlow))
+#12 [internal function]: BinSoul\Net\Mqtt\Client\React\ReactMqttClient->BinSoul\Net\Mqtt\Client\React\{closure}(Object(React\EventLoop\StreamSelectLoop))
+#13 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/react/event-loop/src/Tick/NextTickQueue.php(43): call_user_func(Object(Closure), Object(React\EventLoop\StreamSelectLoop))
+#14 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/react/event-loop/src/StreamSelectLoop.php(173): React\EventLoop\Tick\NextTickQueue->tick()
+#15 /Users/borz/Server/Php/instagrammanager/src/framework/common/components/server/RealtimeClientServer.php(163): React\EventLoop\StreamSelectLoop->run()
+#16 /Users/borz/Server/Php/instagrammanager/src/framework/console/controllers/RealtimeController.php(40): common\components\server\RealtimeClientServer->__construct(Object(React\EventLoop\StreamSelectLoop), Object(InstagramAPI\Instagram), Object(Monolog\Logger))
+#17 [internal function]: console\controllers\RealtimeController->actionIndex()
+#18 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#19 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#21 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#22 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('realtime', Array)
+#23 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('realtime', Array)
+#24 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#25 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#26 {main}
+2019-10-03 15:36:13 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SERVER_SIGNATURE' => ''
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'ORIG_PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/admin/index.php'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_HOST' => 'insta-module:8888'
+    'SERVER_PORT' => '8888'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_HANDLER' => 'php-fastcgi'
+    'DOCUMENT_ROOT' => ''
+    'SCRIPT_FILENAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_URI' => '/admin/insta/default/statusbot?status=1&insta_id=2'
+    'SCRIPT_NAME' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'HTTP_X_CSRF_TOKEN' => 'G24znriYj7as9HS-0mCT2TZlUr3-YsbiYIwookHYy9gpD2Xtlf_kgMCeEPLqGuKeWAs4zJhSg9QHyG7qIJ676g=='
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REMOTE_PORT' => '49897'
+    'PHP_FCGI_CHILDREN' => '4'
+    'PHP_SELF' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'ORIG_SCRIPT_FILENAME' => '/Applications/MAMP/fcgi-bin/php7.1.22.fcgi'
+    'SERVER_ADMIN' => 'you@example.com'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/admin'
+    'REDIRECT_STATUS' => '200'
+    'REDIRECT_QUERY_STRING' => 'status=1&insta_id=2'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_REFERER' => 'http://insta-module:8888/admin/insta'
+    'HTTP_ACCEPT' => '*/*'
+    'ORIG_SCRIPT_NAME' => '/fcgi-bin/php7.1.22.fcgi'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_NAME' => 'insta-module'
+    'SHLVL' => '1'
+    'SERVER_SOFTWARE' => 'Apache'
+    'QUERY_STRING' => 'status=1&insta_id=2'
+    'SERVER_ADDR' => '::1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REDIRECT_URL' => '/admin/index.php'
+    'HTTP_COOKIE' => 'advanced-backend=a9abf9b1c263f55d3e767e78e4f5bdfd; _csrf-backend=a750749f90a995a08d7e7b215e27855a3a2f6b3b60818cdac14275644973e23da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222aVs-gk6ljdL8zqGnnjqf0E6gDFHaFp2%22%3B%7D; _csrf-frontend=98c4ac017f299c224daafd4a6fb662e8c9d39e8f7f326e81a3c44c56b9d35a68a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iPFCG2l1hwoswm7Fv8cPUewJPGYiDCyB%22%3B%7D; advanced-frontend=eb6feafa1fb9d461ba24ae36c8cc4ce2; menu_small=1'
+    'REQUEST_METHOD' => 'GET'
+    'ORIG_PATH_INFO' => '/admin/index.php'
+    'PHP_FCGI_MAX_REQUESTS' => '200'
+    '_' => '/usr/bin/php'
+    'PATH_TRANSLATED' => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+    'REQUEST_TIME_FLOAT' => 1570116973.8317
+    'REQUEST_TIME' => 1570116973
+    'argv' => [
+        0 => '/Users/borz/Server/Php/instagrammanager/src/framework/yii'
+        1 => 'realtime'
+        2 => '--login=banu_1_1'
+        3 => '--pass=b0010203'
+    ]
+    'argc' => 4
+]
+2019-10-03 22:00:17 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "socker". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('socker', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('socker', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "socker". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('socker', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#3 {main}
+2019-10-03 22:00:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t0p0:CA4F7610-883A-4967-BC00-79AA21F34D18'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.ARWrpgv4sT/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ITnE6qul4G/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    'ITERM_SESSION_ID' => 'w0t0p0:CA4F7610-883A-4967-BC00-79AA21F34D18'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1570140017.0243
+    'REQUEST_TIME' => 1570140017
+    'argv' => [
+        0 => 'yii'
+        1 => 'socker'
+    ]
+    'argc' => 2
+]
+2019-10-27 17:34:34 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migrates". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrates', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrates', Array)
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrates". in /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrates', Array)
+#1 /Users/borz/Server/Php/instagrammanager/src/framework/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/borz/Server/Php/instagrammanager/src/framework/yii(23): yii\base\Application->run()
+#3 {main}
+2019-10-27 17:34:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_SESSION_ID' => 'w0t1p0:CA4F7610-883A-4967-BC00-79AA21F34D18'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.bGKhkWUzLB/Listeners'
+    'LC_TERMINAL_VERSION' => '3.3.3'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.kEOwMAJI6p/Render'
+    'COLORFGBG' => '15;0'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'LANG' => 'ru_RU.UTF-8'
+    'PWD' => '/Users/borz/Server/Php/instagrammanager/src/framework'
+    'SHELL' => '/bin/zsh'
+    'SECURITYSESSIONID' => '186a7'
+    'TERM_PROGRAM_VERSION' => '3.3.3'
+    'TERM_PROGRAM' => 'iTerm.app'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_TERMINAL' => 'iTerm2'
+    'COLORTERM' => 'truecolor'
+    'COMMAND_MODE' => 'unix2003'
+    'TERM' => 'xterm-256color'
+    'HOME' => '/Users/borz'
+    'TMPDIR' => '/var/folders/vy/fcxb3gh55t559llvw002r_pm0000gn/T/'
+    'USER' => 'borz'
+    'XPC_SERVICE_NAME' => '0'
+    'LOGNAME' => 'borz'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x7:0x31'
+    'ITERM_SESSION_ID' => 'w0t1p0:CA4F7610-883A-4967-BC00-79AA21F34D18'
+    'SHLVL' => '1'
+    'OLDPWD' => '/Users/borz/Server/Php/instagrammanager'
+    'ZSH' => '/Users/borz/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LC_CTYPE' => 'ru_RU.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1572197674.3709
+    'REQUEST_TIME' => 1572197674
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrates'
+    ]
+    'argc' => 2
+]

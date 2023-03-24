@@ -1,0 +1,103 @@
+version: '3'
+
+services:
+  nginx:
+    image: tutum/nginx
+    ports:
+      - "80:80"
+    links:
+      - php-fpm
+      - mariadb
+    volumes:
+      - ./src:/src
+      - ./nginx/default:/etc/nginx/sites-available/default
+      - ./nginx/default:/etc/nginx/sites-enabled/default
+      - ./logs/nginx-error.log:/var/log/nginx/error.log
+      - ./logs/nginx-access.log:/var/log/nginx/access.log
+  php-fpm:
+      build: ./php-fpm
+      links:
+        - mariadb
+        #- postgres
+      ports:
+        - "9000:9000"
+      volumes:
+        - ./src:/src
+  mariadb:
+    image: mariadb:10.3
+    volumes:
+      - ./mariadb:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mariadb:db
+    ports:
+      - 8705:80
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+    depends_on:
+      - mariadb
+    networks:
+      - default
+      - instagrammanager_default
+  #mysql:
+  #  image: mysql:5.7
+  #  volumes:
+  #    - /var/lib/mysql:/var/lzib/mysql
+  #  environment:
+  #    MYSQL_USER: root
+  #    MYSQL_ROOT_PASSWORD: admin
+  #  ports:
+  #    - "3306:3306"
+  #
+  #phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin
+  #   restart: always
+  #   links:
+  #     - mysql
+  #   ports:
+  #     - 8183:80
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: admin
+  #
+  #postgres:
+  #  container_name: postgres_container
+  #  image: postgres
+  #  environment:
+  #    POSTGRES_USER: postgres
+  #    POSTGRES_PASSWORD: changeme
+  #    PGDATA: /data/postgres
+  #  volumes:
+  #    - postgres:/data/postgres
+  #  ports:
+  #    - "5432:5432"
+  #  restart: unless-stopped
+  #
+  #pgadmin:
+  #  container_name: pgadmin_container
+  #  image: dpage/pgadmin4
+  #  environment:
+  #    PGADMIN_DEFAULT_EMAIL: pgadmin4@pgadmin.org
+  #    PGADMIN_DEFAULT_PASSWORD: admin
+  #  volumes:
+  #    - pgadmin:/root/.pgadmin
+  #  ports:
+  #    - "5050:80"
+  #  restart: unless-stopped
+
+  rabbitmq:
+     image: "rabbitmq:3-management"
+     hostname: "rabbit"
+     ports:
+       - "15672:15672"
+       - "5672:5672"
+     labels:
+       NAME: "rabbitmq"
+     volumes:
+       - ./rabbit/rabbitmq-isolated.conf:/etc/rabbitmq/rabbitmq.config
+networks:
+  instagrammanager_default:
+    external: true
